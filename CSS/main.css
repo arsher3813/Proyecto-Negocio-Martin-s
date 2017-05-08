@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Oswald');
 
 body{
-    background: url(/Imagenes/Barberia.jpeg);
+    background: url(Imagenes/Barberia.jpeg);
     background-size: cover;
     position: top;
 }
