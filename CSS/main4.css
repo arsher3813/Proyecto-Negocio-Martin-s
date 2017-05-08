@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Oswald');
+
+body{
+    background-color: red;
+}
+
+header{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Great Vibes", cursive;
+    color: blue;
+    margin-top: -55px;
+}
+
+h2{
+    font-size: 42px;
+    font-family: "Great Vibes", cursive;
+    color: blue;
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin: 60px;
+    padding: 45px;
+    margin-top: -40px;
+}
+
+p{
+    text-align: center;
+    font-size: 23px;
+    font-family: "Oswald";
+    color: white;
+    margin-top: -30px;
+}
+
+img{
+    width: 335px;
+    height: 300px;
+}
+
+button{
+    background-color: white;
+    border-radius: 12px;
+    font-size: 25px;
+    margin-top: 45px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+@media(max-width: 500px){
+    header{font-size: 36px;
+    }
+    div{max-width: 23px;
+    }
+    button{display: block}
+    p{display: block
+    }
+    h2{max-width: 24px;
+    }
+}
