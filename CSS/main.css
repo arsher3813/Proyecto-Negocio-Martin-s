@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Oswald');
+
+body{
+    background: url(/Imagenes/Barberia.jpeg);
+    background-size: cover;
+    position: top;
+}
+
+header{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Great Vibes", cursive;
+    color: blue;
+    margin-top: -60px;
+}
+
+article{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Oswald";
+    margin-top: -20px;
+    color: blue;
+}
+
+button{
+    background-color: red;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 35px;
+    margin-left: 560px;
+    margin-top: 45px;    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width: 500px){
+    header{font-size: 36px;
+    }
+      article{
+        display: block;
+    }
+    div{
+        display: block;
+    }
+    button{
+        display: block;
+    }
+}
